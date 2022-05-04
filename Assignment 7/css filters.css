@@ -1,0 +1,33 @@
+body {
+    display: inline-block;
+  }
+  .filter-invert {
+    filter: invert(100%);
+  }
+  .filter-drop-shadow {
+    filter: drop-shadow(10px 10px 20px red);
+  }
+  .filter-brightnes {
+    filter: brightness(200%);
+  }
+  .filter-saturate {
+    filter: saturate(25);
+  }
+  .filter-blur {
+    filter: blur(5px);
+  }
+  .filter-hue-rotate {
+    filter: hue-rotate(100deg);
+  }
+  .filter-contrast {
+    filter: contrast(50%);
+  }
+  .filter-opacity {
+    filter: opacity(30%);
+  }
+  .filter-grayscale {
+    filter: grayscale(100%);
+  }
+  .filter-sepia {
+    filter: sepia(100%);
+  }

@@ -1,0 +1,37 @@
+body{
+    text-align: center;
+}
+h1::first-letter{
+    font-family: Lucida Calligraphy;
+    font-size: 3cm;
+    color: red;
+    text-shadow: 5px 8px 9px purple;
+}
+h2::first-line{
+    color: blue;
+}
+#aham{
+    content: "";
+    margin: 0 auto;
+    position: relative;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-right: 10px solid red;
+    transform: rotate(10deg);
+}
+#aham::after{
+  content: "";
+  position: absolute;
+  border: 0 solid transparent;
+  border-top: 3px solid red;
+  border-radius: 20px 0 0;
+  top: -12px;
+  left: -9px;
+  width: 12px;
+  height: 12px;
+  transform: rotate(45deg);
+}
+*::selection{
+  color: red;
+}

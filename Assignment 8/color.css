@@ -1,0 +1,22 @@
+body{
+    text-align: center;
+}
+#rgba-colorformat{
+    margin: 0 auto;
+    height: 200px;
+    width: 100%;
+    color: rgba(209, 23, 23, 0.5);
+}
+#hsla-colorformat{
+    margin: 0 auto;
+    height: 200px;
+    width: 100%;
+    color: hsla(26, 50%, 50%, 0.5);
+}
+#hexdecimal-color{
+    margin: 0 auto;
+    height: 200px;
+    width: 100%;
+    color: #ff0000;
+    opacity: 50%;
+}
